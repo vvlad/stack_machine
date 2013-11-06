@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+/bin
+/.bundle
+=======
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+>>>>>>> c766f6f5f05773cdb1a6681473a86f8a151dda40

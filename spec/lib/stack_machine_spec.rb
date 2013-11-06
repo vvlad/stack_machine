@@ -12,7 +12,7 @@ describe StackMachine do
 
   describe "#stack_machine_emulator" do
 
-    it "should push the value to the stack" do
+    it "should push the values to the stack" do
       machine.stack_machine_emulator("1")
       expect(stack).to eq([1])
       machine.stack_machine_emulator("2")

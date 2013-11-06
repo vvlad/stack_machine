@@ -9,10 +9,9 @@ class StackMachine
     '+' => ->(left,right) { left + right }
   }
 
-  attr :stack, :instructions
+  attr :stack
   def initialize
     @stack = Stack.new
-    @instructions = {}
   end
 
 
